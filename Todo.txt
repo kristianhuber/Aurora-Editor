@@ -1,0 +1,9 @@
+To do List:
+
+1.) Fix GUI's cuz they terribre
+
+2.) Implement SkyBoxes
+
+3.) Specular Lighting [Because water needs it]
+
+4.) Implement Sound Engine

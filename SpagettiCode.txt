@@ -1,0 +1,14 @@
+START CODE:
+
+		AuroraEngine.createDisplay();
+		AuroraEngine.loadResourcesAndProperties();
+		
+		Terrain t = new Terrain("height", 0, -1, new TerrainTexturePack(
+				"grass", "snow", "stone", "sand"), new TerrainTexture(
+				TextureManager.getTextureID("map")));
+
+		AuroraEngine.world.getSector(0, 0).setTerrain(t);
+		
+		MousePointer.setTerrain(t);
+
+		AuroraEngine.startRendering();
